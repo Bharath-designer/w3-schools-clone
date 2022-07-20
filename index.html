@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>w3 schools  - Clone</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="body-container">
+      <div class="top_box">
+        <div class="left-top">
+          <a href="">
+            <img
+              class="logo"
+              src="data:image/jpeg;base64,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"
+              alt=""
+            />
+          </a>
+          <a href="" class="top-links">
+            Tutorials
+            <img src="assets/down.png" alt="" />
+          </a>
+          <a href="" class="top-links">
+            References
+            <img src="assets/down.png" alt="" />
+          </a>
+          <a href="" class="top-links">
+            Exercises
+            <img src="assets/down.png" alt="" />
+          </a>
+          <a href="" class="top-links">
+            Videos
+            <p id="new">New</p>
+          </a>
+        </div>
+        <div class="right-top">
+          <a class="top-links" href=""> Website </a>
+          <a class="top-links" href=""> Paid Courses </a>
+          <a class="top-links second" href=""> Log in </a>
+        </div>
+      </div>
+  
+      <header>
+          <div class="nav">
+              <div class="left-nav">
+                <ul>
+                  <li class="toggle">
+                    <img src="assets/menu.png " alt="">
+                  </li>
+                  <li class="left-nav-links">
+                    <a href=""
+                      ><svg class="svg-icon" viewBox="0 0 20 20">
+                        <path
+                          fill="none"
+                          d="M7.228,11.464H1.996c-0.723,0-1.308,0.587-1.308,1.309v5.232c0,0.722,0.585,1.308,1.308,1.308h5.232
+                    c0.723,0,1.308-0.586,1.308-1.308v-5.232C8.536,12.051,7.95,11.464,7.228,11.464z M7.228,17.351c0,0.361-0.293,0.654-0.654,0.654
+                    H2.649c-0.361,0-0.654-0.293-0.654-0.654v-3.924c0-0.361,0.292-0.654,0.654-0.654h3.924c0.361,0,0.654,0.293,0.654,0.654V17.351z
+                     M17.692,11.464H12.46c-0.723,0-1.308,0.587-1.308,1.309v5.232c0,0.722,0.585,1.308,1.308,1.308h5.232
+                    c0.722,0,1.308-0.586,1.308-1.308v-5.232C19,12.051,18.414,11.464,17.692,11.464z M17.692,17.351c0,0.361-0.293,0.654-0.654,0.654
+                    h-3.924c-0.361,0-0.654-0.293-0.654-0.654v-3.924c0-0.361,0.293-0.654,0.654-0.654h3.924c0.361,0,0.654,0.293,0.654,0.654V17.351z
+                     M7.228,1H1.996C1.273,1,0.688,1.585,0.688,2.308V7.54c0,0.723,0.585,1.308,1.308,1.308h5.232c0.723,0,1.308-0.585,1.308-1.308
+                    V2.308C8.536,1.585,7.95,1,7.228,1z M7.228,6.886c0,0.361-0.293,0.654-0.654,0.654H2.649c-0.361,0-0.654-0.292-0.654-0.654V2.962
+                    c0-0.361,0.292-0.654,0.654-0.654h3.924c0.361,0,0.654,0.292,0.654,0.654V6.886z M17.692,1H12.46c-0.723,0-1.308,0.585-1.308,1.308
+                    V7.54c0,0.723,0.585,1.308,1.308,1.308h5.232C18.414,8.848,19,8.263,19,7.54V2.308C19,1.585,18.414,1,17.692,1z M17.692,6.886
+                    c0,0.361-0.293,0.654-0.654,0.654h-3.924c-0.361,0-0.654-0.292-0.654-0.654V2.962c0-0.361,0.293-0.654,0.654-0.654h3.924
+                    c0.361,0,0.654,0.292,0.654,0.654V6.886z"
+                        ></path></svg
+                    ></a>
+                  </li>
+                  <li class="left-nav-links"><a href="">HTML</a></li>
+                  <li class="left-nav-links"><a href="">CSS</a></li>
+                  <li class="left-nav-links"><a href="">JAVASCRIPT</a></li>
+                  <li class="left-nav-links"><a href="">SQL</a></li>
+                  <li style="background-color: #02a469;" class="left-nav-links"><a href="">PYTHON</a></li>
+                  <li class="left-nav-links"><a href="">PHP</a></li>
+                  <li class="left-nav-links"><a href="">BOOTSTRAP</a></li>
+                  <li class="left-nav-links"><a href="">HOW TO</a></li>
+                  <li class="left-nav-links"><a href="">W3.CSS</a></li>
+                  <li class="left-nav-links"><a href="">JAVA</a></li>
+                  <li class="left-nav-links"><a href="">JQUERY</a></li>
+                  <li class="left-nav-links"><a href="">C++</a></li>
+                </ul>
+              </div>
+              <div class="right-nav">
+                <ul>
+                  <li>
+                    <a href=""><img src="assets/moon.png" alt="" /></a>
+                  </li>
+                  <li>
+                    <a href=""><img src="assets/world.png" alt="" /></a>
+                  </li>
+                  <li>
+                    <a href=""><img src="assets/search.png" alt="" /></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+      </header>
+  
+      <div class="frame">
+        <div class="side hide">
+          <h3>Python Tutorial</h3>
+          <ul>
+            <li class="side-list"><a href="">Python HOME</a></li>
+            <li class="side-list"><a href="">Python Intro</a></li>
+            <li class="side-list"><a href="">Python Get Started</a></li>
+            <li class="side-list"><a href="">Python Syntax</a></li>
+            <li class="side-list"><a href="">Python Comments</a></li>
+            <li class="side-list"><a href="">Python Variables</a></li>
+            <li class="side-list"><a href="">Python Data Types</a></li>
+            <li class="side-list"><a href="">Python Numbers</a></li>
+            <li class="side-list"><a href="">Python Casting</a></li>
+            <li class="side-list"><a href="">Python Strings</a></li>
+            <li class="side-list"><a href="">Python Booleans</a></li>
+            <li class="side-list"><a href="">Python Booleans</a></li>
+            <li class="side-list"><a href="">Python Booleans</a></li>
+            <li class="side-list"><a href="">Python Operators</a></li>
+            <li class="side-list"><a href="">Python List</a></li>
+            <li class="side-list"><a href="">Python Tuples</a></li>
+            <li class="side-list"><a href="">Python Sets</a></li>
+            <li class="side-list"><a href="">Python Dictionaries</a></li>
+            <li class="side-list"><a href="">Python If...Else</a></li>
+            <li class="side-list"><a href="">Python While Loop</a></li>
+            <li class="side-list"><a href="">Python For Loop</a></li>
+            <li class="side-list"><a href="">Python Function</a></li>
+            <li class="side-list"><a href="">Python Arrays</a></li>
+            <li class="side-list"><a href="">Python Classes/Objects</a></li>
+            <li class="side-list"><a href="">Python Inheritance</a></li>
+            <li class="side-list"><a href="">Python Iterators</a></li>
+            <li class="side-list"><a href="">Python Scope</a></li>
+            <li class="side-list"><a href="">Python Modules</a></li>
+            <li class="side-list"><a href="">Python Dates</a></li>
+            <li class="side-list"><a href="">Python Math</a></li>
+            <li class="side-list"><a href="">Python Json</a></li>
+            <li class="side-list"><a href="">Python RegEx</a></li>
+            <li class="side-list"><a href="">Python PIP</a></li>
+            <li class="side-list"><a href="">Python Try...Except</a></li>
+            <li class="side-list"><a href="">Python User Input</a></li>
+            <li class="side-list"><a href="">Python String Formatting</a></li>
+          </ul>
+        </div>
+    
+        <div class="content hide">
+            <div class="content-header">
+                <h1>Python Tutorial</h1>
+            </div>
+
+
+            <div class="nextBtnRow">
+              <button>< Home</button>
+              <button>Next ></button>
+            </div>
+            <div class="empty-content">
+              <p>Example</p>
+              <div class="text"></div>
+              <button>Try it Yourself >></button>
+            </div>
+
+            <div class="empty-content">
+              <p>Example</p>
+              <div class="text"></div>
+              <button>Try it Yourself >></button>
+            </div>
+
+            <div class="empty-content">
+              <p>Example</p>
+              <div class="text"></div>
+              <button>Try it Yourself >></button>
+            </div>
+
+            <div class="empty-content">
+              <p>Example</p>
+              <div class="text"></div>
+              <button>Try it Yourself >></button>
+            </div>
+
+            <div class="nextBtnRow last">
+              <button>< Home</button>
+              <button>Next ></button>
+            </div>
+
+        </div>
+      </div>
+  
+    </div>
+
+
+
+
+
+
+    <script>
+
+      let side = document.querySelector(".side")
+      let content = document.querySelector(".content")
+      let toggle = document.querySelector(".toggle")
+
+
+      toggle.addEventListener('click',()=>{
+        side.classList.toggle('hide')
+        content.classList.toggle('hide')
+      })
+
+    </script>
+  </body>
+</html>
