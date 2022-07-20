@@ -291,6 +291,14 @@ width: 100%;
   margin: 50px auto;
 }
 
+.text{
+  display: flex;
+  align-items: center;
+  padding-left:10px ;
+  color: rgb(76, 76, 76);
+  font-size: 14px;
+}
+
 @media screen and (max-width: 800px) {
   .top-links:nth-child(4):not(.second) {
     display: none;
