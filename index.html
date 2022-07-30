@@ -4,11 +4,95 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>w3 schools  - Clone</title>
+    <title>w3 schools - Clone</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="body-container">
+      <div class="drop-down-container hide">
+        <div class="drop-down-menu">
+          <div class="drop-down-content">
+            <div>
+              <h3>HTML and CSS</h3>
+              <br />
+              <p>HTML and CSS</p>
+              <p>Learn HTML</p>
+              <p>Learn CSS</p>
+              <p>Learn RWD</p>
+              <p>Learn Bootstrap</p>
+              <p>Learn W3.CSS</p>
+              <p>Learn Colors</p>
+              <p>Learn Icons</p>
+              <p>Learn Graphics</p>
+              <p>Learn SVG</p>
+              <p>Learn Canvas</p>
+              <p>Learn How To</p>
+              <p>Learn Sass</p>
+            </div>
+          </div>
+
+          <div class="drop-down-content">
+
+            
+
+            <h3>JavaScript</h3>
+
+
+            <br>
+
+            <p>Learn JavaScript</p>
+            <p>Learn jQuery</p>
+            <p>Learn React</p>
+            <p>Learn AngularJS</p>
+            <p>Learn JSON</p>
+            <p>Learn AJAX</p>
+            <p>Learn AppML</p>
+            <p>Learn W3.JS</p>
+          </div>
+
+          <div class="drop-down-content">
+
+            <h3>Programming</h3>
+<br>
+            <p>Learn Python</p>
+            <p>Learn Java</p>
+            <p>Learn C</p>
+            <p>Learn C++</p>
+            <p>Learn C#</p>
+            <p>Learn R</p>
+            <p>Learn Kotlin</p>
+            <p>Learn Go</p>
+            <p>Learn Django</p>
+            <p>Learn TypeScript</p>
+            <p>Server Side</p>
+            <p>Learn SQL</p>
+            <p>Learn MySQL</p>
+            <p>Learn PHP</p>
+            <p>Learn ASP</p>
+            <p>Learn Node.js</p>
+            <p>Learn Raspberry Pi</p>
+            <p>Learn Git</p>
+            <p>Learn AWS Cloud</p>
+          </div>
+
+          <div class="drop-down-content">
+            <h3>Web Building</h3>
+            <br>
+            <p>Create a Website NEW</p>
+            <p>Where To Start</p>
+            <p>Web Templates</p>
+            <p>Web Statistics</p>
+            <p>Web Certificates</p>
+            <p>Web Development</p>
+            <p>Code Editor</p>
+            <p>Test Your Typing Speed</p>
+            <p>Play a Code Game</p>
+            <p>Cyber Security</p>
+            <p>Accessibility</p>
+            <p>Blog</p>
+          </div>
+        </div>
+      </div>
       <div class="top_box">
         <div class="left-top">
           <a href="">
@@ -18,10 +102,11 @@
               alt=""
             />
           </a>
-          <a href="" class="top-links">
+          <a onclick="toggleDropDown()" style="cursor: pointer" class="top-links">
             Tutorials
             <img src="assets/down.png" alt="" />
           </a>
+
           <a href="" class="top-links">
             References
             <img src="assets/down.png" alt="" />
@@ -41,20 +126,20 @@
           <a class="top-links second" href=""> Log in </a>
         </div>
       </div>
-  
+
       <header>
-          <div class="nav">
-              <div class="left-nav">
-                <ul>
-                  <li class="toggle">
-                    <img src="assets/menu.png " alt="">
-                  </li>
-                  <li class="left-nav-links">
-                    <a href=""
-                      ><svg class="svg-icon" viewBox="0 0 20 20">
-                        <path
-                          fill="none"
-                          d="M7.228,11.464H1.996c-0.723,0-1.308,0.587-1.308,1.309v5.232c0,0.722,0.585,1.308,1.308,1.308h5.232
+        <div class="nav">
+          <div class="left-nav">
+            <ul>
+              <li class="toggle">
+                <img src="assets/menu.png " alt="" />
+              </li>
+              <li class="left-nav-links">
+                <a href=""
+                  ><svg class="svg-icon" viewBox="0 0 20 20">
+                    <path
+                      fill="none"
+                      d="M7.228,11.464H1.996c-0.723,0-1.308,0.587-1.308,1.309v5.232c0,0.722,0.585,1.308,1.308,1.308h5.232
                     c0.723,0,1.308-0.586,1.308-1.308v-5.232C8.536,12.051,7.95,11.464,7.228,11.464z M7.228,17.351c0,0.361-0.293,0.654-0.654,0.654
                     H2.649c-0.361,0-0.654-0.293-0.654-0.654v-3.924c0-0.361,0.292-0.654,0.654-0.654h3.924c0.361,0,0.654,0.293,0.654,0.654V17.351z
                      M17.692,11.464H12.46c-0.723,0-1.308,0.587-1.308,1.309v5.232c0,0.722,0.585,1.308,1.308,1.308h5.232
@@ -66,42 +151,45 @@
                     V7.54c0,0.723,0.585,1.308,1.308,1.308h5.232C18.414,8.848,19,8.263,19,7.54V2.308C19,1.585,18.414,1,17.692,1z M17.692,6.886
                     c0,0.361-0.293,0.654-0.654,0.654h-3.924c-0.361,0-0.654-0.292-0.654-0.654V2.962c0-0.361,0.293-0.654,0.654-0.654h3.924
                     c0.361,0,0.654,0.292,0.654,0.654V6.886z"
-                        ></path></svg
-                    ></a>
-                  </li>
-                  <li class="left-nav-links"><a href="">HTML</a></li>
-                  <li class="left-nav-links"><a href="">CSS</a></li>
-                  <li class="left-nav-links"><a href="">JAVASCRIPT</a></li>
-                  <li class="left-nav-links"><a href="">SQL</a></li>
-                  <li style="background-color: #02a469;" class="left-nav-links"><a href="">PYTHON</a></li>
-                  <li class="left-nav-links"><a href="">PHP</a></li>
-                  <li class="left-nav-links"><a href="">BOOTSTRAP</a></li>
-                  <li class="left-nav-links"><a href="">HOW TO</a></li>
-                  <li class="left-nav-links"><a href="">W3.CSS</a></li>
-                  <li class="left-nav-links"><a href="">JAVA</a></li>
-                  <li class="left-nav-links"><a href="">JQUERY</a></li>
-                  <li class="left-nav-links"><a href="">C++</a></li>
-                </ul>
-              </div>
-              <div class="right-nav">
-                <ul>
-                  <li>
-                    <a href=""><img src="assets/moon.png" alt="" /></a>
-                  </li>
-                  <li>
-                    <a href=""><img src="assets/world.png" alt="" /></a>
-                  </li>
-                  <li>
-                    <a href=""><img src="assets/search.png" alt="" /></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
+                    ></path></svg
+                ></a>
+              </li>
+              <li class="left-nav-links"><a href="">HTML</a></li>
+              <li class="left-nav-links"><a href="">CSS</a></li>
+              <li class="left-nav-links"><a href="">JAVASCRIPT</a></li>
+              <li class="left-nav-links"><a href="">SQL</a></li>
+              <li style="background-color: #02a469" class="left-nav-links">
+                <a href="">PYTHON</a>
+              </li>
+              <li class="left-nav-links"><a href="">PHP</a></li>
+              <li class="left-nav-links"><a href="">BOOTSTRAP</a></li>
+              <li class="left-nav-links"><a href="">HOW TO</a></li>
+              <li class="left-nav-links"><a href="">W3.CSS</a></li>
+              <li class="left-nav-links"><a href="">JAVA</a></li>
+              <li class="left-nav-links"><a href="">JQUERY</a></li>
+              <li class="left-nav-links"><a href="">C++</a></li>
+            </ul>
+          </div>
+          <div class="right-nav">
+            <ul>
+              <li>
+                <a href=""><img src="assets/moon.png" alt="" /></a>
+              </li>
+              <li>
+                <a href=""><img src="assets/world.png" alt="" /></a>
+              </li>
+              <li>
+                <a href=""><img src="assets/search.png" alt="" /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </header>
-  
+
       <div class="frame">
         <div class="side hide">
           <h3>Python Tutorial</h3>
+
           <ul>
             <li class="side-list"><a href="">Python HOME</a></li>
             <li class="side-list"><a href="">Python Intro</a></li>
@@ -141,68 +229,67 @@
             <li class="side-list"><a href="">Python String Formatting</a></li>
           </ul>
         </div>
-    
+
         <div class="content hide">
-            <div class="content-header">
-                <h1>Python Tutorial</h1>
-            </div>
+          <div class="content-header">
+            <h1>Python Tutorial</h1>
+          </div>
 
+          <div class="nextBtnRow">
+            <button>< Home</button>
+            <button>Next ></button>
+          </div>
+          <div class="empty-content">
+            <p>Example</p>
+            <div class="text">print("Hello World")</div>
+            <button>Try it Yourself >></button>
+          </div>
 
-            <div class="nextBtnRow">
-              <button>< Home</button>
-              <button>Next ></button>
-            </div>
-            <div class="empty-content">
-              <p>Example</p>
-              <div class="text">print("Hello World")</div>
-              <button>Try it Yourself >></button>
-            </div>
+          <div class="empty-content">
+            <p>Example</p>
+            <div class="text"></div>
+            <button>Try it Yourself >></button>
+          </div>
 
-            <div class="empty-content">
-              <p>Example</p>
-              <div class="text"></div>
-              <button>Try it Yourself >></button>
-            </div>
+          <div class="empty-content">
+            <p>Example</p>
+            <div class="text"></div>
+            <button>Try it Yourself >></button>
+          </div>
 
-            <div class="empty-content">
-              <p>Example</p>
-              <div class="text"></div>
-              <button>Try it Yourself >></button>
-            </div>
+          <div class="empty-content">
+            <p>Example</p>
+            <div class="text"></div>
+            <button>Try it Yourself >></button>
+          </div>
 
-            <div class="empty-content">
-              <p>Example</p>
-              <div class="text"></div>
-              <button>Try it Yourself >></button>
-            </div>
-
-            <div class="nextBtnRow last">
-              <button>< Home</button>
-              <button>Next ></button>
-            </div>
-
+          <div class="nextBtnRow last">
+            <button>< Home</button>
+            <button>Next ></button>
+          </div>
         </div>
       </div>
-  
     </div>
 
-
-
-
-
-
     <script>
+      let side = document.querySelector(".side");
+      let content = document.querySelector(".content");
+      let toggle = document.querySelector(".toggle");
 
-      let side = document.querySelector(".side")
-      let content = document.querySelector(".content")
-      let toggle = document.querySelector(".toggle")
+      let dropdown = document.querySelector('.drop-down-container');
 
 
-      toggle.addEventListener('click',()=>{
-        side.classList.toggle('hide')
-        content.classList.toggle('hide')
-      })
+      const toggleDropDown = () =>{
+        dropdown.classList.toggle('hide')
+      }
 
+
+
+
+      toggle.addEventListener("click", () => {
+        side.classList.toggle("hide");
+        content.classList.toggle("hide");
+      });
     </script>
   </body>
 </html>
