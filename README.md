@@ -8,7 +8,6 @@
 </h3>
 
 
-<br/>
 
 
 # This project was designed at the time when I was understanding the concepts of layout in CSS. 
