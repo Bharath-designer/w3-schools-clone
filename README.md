@@ -7,6 +7,7 @@
     I'm Bharath!
 </h3>
 
+
 <br/><br/>
 
 # This project was designed at the time when I was understanding the concepts of layout in CSS. 
@@ -21,3 +22,9 @@
 
 ## Here is the link to <a target="_blank" href="https://bharath-designer.github.io/w3-schools-clone/">Live Preview</a>
 
+<br><br>
+
+<h3 align="center">I'am a passionate Web developer from India</h3>
+
+
+<p align="center"><img  src="https://github-readme-streak-stats.herokuapp.com/?user=bharath-designer" alt="bharath-designer" /></p>
