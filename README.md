@@ -6,10 +6,6 @@
          width="45" />
     I'm Bharath!
 </h3>
-
-
-
-
 # This project was designed at the time when I was understanding the concepts of layout in CSS. 
 
 
